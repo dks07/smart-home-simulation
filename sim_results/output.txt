@@ -1,0 +1,1324 @@
+Simulation setting file, output folder and iteration number are not provided! Using default ones...
+Simulation started at 11/05/2023 15:25:42
+----------------------------------------------------------------------
+Scenario started at 11/05/2023 15:25:42
+Scenario: SINGLE_TIER - Policy: NEXT_FIT - #iteration: 1
+Duration: 0.5 hour(s) - Poisson: 30.0 - #devices: 100
+Creating tasks...Done, 
+Creating device locations...Done.
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+SMART_LIGHT
+# of tasks (Edge/Cloud): 549(549/0)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 549(549/0)
+---------------------------------------
+SMART_AC
+# of tasks (Edge/Cloud): 600(600/0)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 600(600/0)
+---------------------------------------
+SMART_LOCK
+# of tasks (Edge/Cloud): 4099(4099/0)
+# of failed tasks (Edge/Cloud): 657(657/0)
+# of completed tasks (Edge/Cloud): 3442(3442/0)
+---------------------------------------
+SMART_FIRE_ALARM
+# of tasks (Edge/Cloud): 3240(3240/0)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 3240(3240/0)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 8488(8488/0/0)
+# of failed tasks (Edge/Cloud/Mobile): 657(657/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 7831(7831/0/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 13(13/0/0)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 657(657/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 0/0/0(0/0/0/0)
+percentage of failed tasks: 7.740339%
+average service time: 2.521673 seconds. (on Edge: 2.521673, on Cloud: NaN, on Mobile: NaN)
+average processing time: 2.507052 seconds. (on Edge: 2.507052, on Cloud: NaN, on Mobile: NaN)
+average network delay: 0.014621 seconds. (LAN delay: 0.014621, MAN delay: NaN, WAN delay: NaN, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 15.628285/0.000000/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 11/05/2023 15:25:42. It took 498 Milli Seconds
+----------------------------------------------------------------------
+Scenario started at 11/05/2023 15:25:42
+Scenario: TWO_TIER - Policy: NEXT_FIT - #iteration: 1
+Duration: 0.5 hour(s) - Poisson: 30.0 - #devices: 100
+Creating tasks...Done, 
+Creating device locations...Done.
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+SMART_LIGHT
+# of tasks (Edge/Cloud): 724(565/159)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 724(565/159)
+---------------------------------------
+SMART_AC
+# of tasks (Edge/Cloud): 432(333/99)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 432(333/99)
+---------------------------------------
+SMART_LOCK
+# of tasks (Edge/Cloud): 5385(3766/1619)
+# of failed tasks (Edge/Cloud): 278(278/0)
+# of completed tasks (Edge/Cloud): 5107(3488/1619)
+---------------------------------------
+SMART_FIRE_ALARM
+# of tasks (Edge/Cloud): 2656(1826/830)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 2656(1826/830)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 9197(6490/2707/0)
+# of failed tasks (Edge/Cloud/Mobile): 278(278/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 8919(6212/2707/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 12(12/0/0)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 278(278/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 0/0/0(0/0/0/0)
+percentage of failed tasks: 3.022725%
+average service time: 2.380550 seconds. (on Edge: 3.080228, on Cloud: 0.774934, on Mobile: NaN)
+average processing time: 2.245955 seconds. (on Edge: 3.065598, on Cloud: 0.365047, on Mobile: NaN)
+average network delay: 0.134594 seconds. (LAN delay: 0.014630, MAN delay: NaN, WAN delay: 0.409887, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 15.201863/0.272784/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 11/05/2023 15:25:43. It took 441 Milli Seconds
+----------------------------------------------------------------------
+Scenario started at 11/05/2023 15:25:43
+Scenario: TWO_TIER_WITH_EO - Policy: NEXT_FIT - #iteration: 1
+Duration: 0.5 hour(s) - Poisson: 30.0 - #devices: 100
+Creating tasks...Done, 
+Creating device locations...Done.
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+SMART_LIGHT
+# of tasks (Edge/Cloud): 645(504/141)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 645(504/141)
+---------------------------------------
+SMART_AC
+# of tasks (Edge/Cloud): 507(413/94)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 507(413/94)
+---------------------------------------
+SMART_LOCK
+# of tasks (Edge/Cloud): 7786(5347/2439)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 7786(5347/2439)
+---------------------------------------
+SMART_FIRE_ALARM
+# of tasks (Edge/Cloud): 1861(1281/580)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 1861(1281/580)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 10799(7545/3254/0)
+# of failed tasks (Edge/Cloud/Mobile): 0(0/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 10799(7545/3254/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 22(19/2/1)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 0(0/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 0/0/0(0/0/0/0)
+percentage of failed tasks: 0.000000%
+average service time: 2.863452 seconds. (on Edge: 3.741253, on Cloud: 0.828109, on Mobile: NaN)
+average processing time: 2.723394 seconds. (on Edge: 3.717397, on Cloud: 0.418614, on Mobile: NaN)
+average network delay: 0.140058 seconds. (LAN delay: 0.023856, MAN delay: NaN, WAN delay: 0.409494, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 23.381510/0.425585/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 11/05/2023 15:25:43. It took 338 Milli Seconds
+----------------------------------------------------------------------
+Scenario started at 11/05/2023 15:25:43
+Scenario: SINGLE_TIER - Policy: NEXT_FIT - #iteration: 1
+Duration: 0.5 hour(s) - Poisson: 30.0 - #devices: 200
+Creating tasks...Done, 
+Creating device locations...Done.
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+SMART_LIGHT
+# of tasks (Edge/Cloud): 1466(1466/0)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 1466(1466/0)
+---------------------------------------
+SMART_AC
+# of tasks (Edge/Cloud): 1102(1102/0)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 1102(1102/0)
+---------------------------------------
+SMART_LOCK
+# of tasks (Edge/Cloud): 9784(9784/0)
+# of failed tasks (Edge/Cloud): 2491(2491/0)
+# of completed tasks (Edge/Cloud): 7293(7293/0)
+---------------------------------------
+SMART_FIRE_ALARM
+# of tasks (Edge/Cloud): 4312(4312/0)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 4312(4312/0)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 16664(16664/0/0)
+# of failed tasks (Edge/Cloud/Mobile): 2491(2491/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 14173(14173/0/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 29(29/0/0)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 2491(2491/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 0/0/0(0/0/0/0)
+percentage of failed tasks: 14.948392%
+average service time: 2.923174 seconds. (on Edge: 2.923174, on Cloud: NaN, on Mobile: NaN)
+average processing time: 2.908253 seconds. (on Edge: 2.908253, on Cloud: NaN, on Mobile: NaN)
+average network delay: 0.014921 seconds. (LAN delay: 0.014921, MAN delay: NaN, WAN delay: NaN, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 33.058409/0.000000/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 11/05/2023 15:25:44. It took 726 Milli Seconds
+----------------------------------------------------------------------
+Scenario started at 11/05/2023 15:25:44
+Scenario: TWO_TIER - Policy: NEXT_FIT - #iteration: 1
+Duration: 0.5 hour(s) - Poisson: 30.0 - #devices: 200
+Creating tasks...Done, 
+Creating device locations...Done.
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+SMART_LIGHT
+# of tasks (Edge/Cloud): 1058(832/226)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 1058(832/226)
+---------------------------------------
+SMART_AC
+# of tasks (Edge/Cloud): 1100(861/239)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 1100(861/239)
+---------------------------------------
+SMART_LOCK
+# of tasks (Edge/Cloud): 11652(7984/3668)
+# of failed tasks (Edge/Cloud): 1295(1295/0)
+# of completed tasks (Edge/Cloud): 10357(6689/3668)
+---------------------------------------
+SMART_FIRE_ALARM
+# of tasks (Edge/Cloud): 5345(3724/1621)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 5345(3724/1621)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 19155(13401/5754/0)
+# of failed tasks (Edge/Cloud/Mobile): 1295(1295/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 17860(12106/5754/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 25(23/1/1)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 1295(1295/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 0/0/0(0/0/0/0)
+percentage of failed tasks: 6.760637%
+average service time: 2.302286 seconds. (on Edge: 3.036429, on Cloud: 0.757703, on Mobile: NaN)
+average processing time: 2.158897 seconds. (on Edge: 3.021547, on Cloud: 0.343943, on Mobile: NaN)
+average network delay: 0.143389 seconds. (LAN delay: 0.014882, MAN delay: NaN, WAN delay: 0.413760, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 29.839345/0.552885/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 11/05/2023 15:25:45. It took 1 Second
+----------------------------------------------------------------------
+Scenario started at 11/05/2023 15:25:45
+Scenario: TWO_TIER_WITH_EO - Policy: NEXT_FIT - #iteration: 1
+Duration: 0.5 hour(s) - Poisson: 30.0 - #devices: 200
+Creating tasks...Done, 
+Creating device locations...Done.
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+SMART_LIGHT
+# of tasks (Edge/Cloud): 1056(843/213)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 1056(843/213)
+---------------------------------------
+SMART_AC
+# of tasks (Edge/Cloud): 1025(807/218)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 1025(807/218)
+---------------------------------------
+SMART_LOCK
+# of tasks (Edge/Cloud): 12148(8357/3791)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 12148(8357/3791)
+---------------------------------------
+SMART_FIRE_ALARM
+# of tasks (Edge/Cloud): 5357(3755/1602)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 5357(3755/1602)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 19586(13762/5824/0)
+# of failed tasks (Edge/Cloud/Mobile): 0(0/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 19586(13762/5824/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 28(27/0/1)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 0(0/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 0/0/0(0/0/0/0)
+percentage of failed tasks: 0.000000%
+average service time: 2.508961 seconds. (on Edge: 3.244630, on Cloud: 0.770587, on Mobile: NaN)
+average processing time: 2.368845 seconds. (on Edge: 3.220410, on Cloud: 0.356612, on Mobile: NaN)
+average network delay: 0.140116 seconds. (LAN delay: 0.024220, MAN delay: NaN, WAN delay: 0.413975, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 36.694935/0.585493/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 11/05/2023 15:25:46. It took 1 Second
+----------------------------------------------------------------------
+Scenario started at 11/05/2023 15:25:46
+Scenario: SINGLE_TIER - Policy: NEXT_FIT - #iteration: 1
+Duration: 0.5 hour(s) - Poisson: 30.0 - #devices: 300
+Creating tasks...Done, 
+Creating device locations...Done.
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+SMART_LIGHT
+# of tasks (Edge/Cloud): 2257(2257/0)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 2257(2257/0)
+---------------------------------------
+SMART_AC
+# of tasks (Edge/Cloud): 1393(1393/0)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 1393(1393/0)
+---------------------------------------
+SMART_LOCK
+# of tasks (Edge/Cloud): 18382(18382/0)
+# of failed tasks (Edge/Cloud): 6924(6924/0)
+# of completed tasks (Edge/Cloud): 11458(11458/0)
+---------------------------------------
+SMART_FIRE_ALARM
+# of tasks (Edge/Cloud): 6763(6763/0)
+# of failed tasks (Edge/Cloud): 2(2/0)
+# of completed tasks (Edge/Cloud): 6761(6761/0)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 28795(28795/0/0)
+# of failed tasks (Edge/Cloud/Mobile): 6926(6926/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 21869(21869/0/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 38(38/0/0)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 6926(6926/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 0/0/0(0/0/0/0)
+percentage of failed tasks: 24.052787%
+average service time: 2.974296 seconds. (on Edge: 2.974296, on Cloud: NaN, on Mobile: NaN)
+average processing time: 2.959113 seconds. (on Edge: 2.959113, on Cloud: NaN, on Mobile: NaN)
+average network delay: 0.015183 seconds. (LAN delay: 0.015183, MAN delay: NaN, WAN delay: NaN, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 53.266842/0.000000/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 11/05/2023 15:25:47. It took 1 Second
+----------------------------------------------------------------------
+Scenario started at 11/05/2023 15:25:47
+Scenario: TWO_TIER - Policy: NEXT_FIT - #iteration: 1
+Duration: 0.5 hour(s) - Poisson: 30.0 - #devices: 300
+Creating tasks...Done, 
+Creating device locations...Done.
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+SMART_LIGHT
+# of tasks (Edge/Cloud): 1754(1370/384)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 1754(1370/384)
+---------------------------------------
+SMART_AC
+# of tasks (Edge/Cloud): 1624(1272/352)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 1624(1272/352)
+---------------------------------------
+SMART_LOCK
+# of tasks (Edge/Cloud): 17693(12284/5409)
+# of failed tasks (Edge/Cloud): 2548(2548/0)
+# of completed tasks (Edge/Cloud): 15145(9736/5409)
+---------------------------------------
+SMART_FIRE_ALARM
+# of tasks (Edge/Cloud): 7528(5249/2279)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 7528(5249/2279)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 28599(20175/8424/0)
+# of failed tasks (Edge/Cloud/Mobile): 2548(2548/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 26051(17627/8424/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 32(29/3/0)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 2548(2548/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 0/0/0(0/0/0/0)
+percentage of failed tasks: 8.909402%
+average service time: 2.325192 seconds. (on Edge: 3.068937, on Cloud: 0.768925, on Mobile: NaN)
+average processing time: 2.179834 seconds. (on Edge: 3.053775, on Cloud: 0.351135, on Mobile: NaN)
+average network delay: 0.145358 seconds. (LAN delay: 0.015162, MAN delay: NaN, WAN delay: 0.417790, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 44.162088/0.853470/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 11/05/2023 15:25:49. It took 1 Second
+----------------------------------------------------------------------
+Scenario started at 11/05/2023 15:25:49
+Scenario: TWO_TIER_WITH_EO - Policy: NEXT_FIT - #iteration: 1
+Duration: 0.5 hour(s) - Poisson: 30.0 - #devices: 300
+Creating tasks...Done, 
+Creating device locations...Done.
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+SMART_LIGHT
+# of tasks (Edge/Cloud): 1867(1489/378)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 1867(1489/378)
+---------------------------------------
+SMART_AC
+# of tasks (Edge/Cloud): 1613(1285/328)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 1613(1285/328)
+---------------------------------------
+SMART_LOCK
+# of tasks (Edge/Cloud): 16382(11442/4940)
+# of failed tasks (Edge/Cloud): 31(31/0)
+# of completed tasks (Edge/Cloud): 16351(11411/4940)
+---------------------------------------
+SMART_FIRE_ALARM
+# of tasks (Edge/Cloud): 7920(5522/2398)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 7920(5522/2398)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 27782(19738/8044/0)
+# of failed tasks (Edge/Cloud/Mobile): 31(31/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 27751(19707/8044/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 49(43/4/2)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 31(31/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 0/0/0(0/0/0/0)
+percentage of failed tasks: 0.111583%
+average service time: 2.466391 seconds. (on Edge: 3.164727, on Cloud: 0.755536, on Mobile: NaN)
+average processing time: 2.327859 seconds. (on Edge: 3.140267, on Cloud: 0.337541, on Mobile: NaN)
+average network delay: 0.138531 seconds. (LAN delay: 0.024460, MAN delay: NaN, WAN delay: 0.417995, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 51.171166/0.740803/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 11/05/2023 15:25:51. It took 2 Seconds
+----------------------------------------------------------------------
+Scenario started at 11/05/2023 15:25:51
+Scenario: SINGLE_TIER - Policy: NEXT_FIT - #iteration: 1
+Duration: 0.5 hour(s) - Poisson: 30.0 - #devices: 400
+Creating tasks...Done, 
+Creating device locations...Done.
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+SMART_LIGHT
+# of tasks (Edge/Cloud): 2775(2775/0)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 2775(2775/0)
+---------------------------------------
+SMART_AC
+# of tasks (Edge/Cloud): 2301(2301/0)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 2301(2301/0)
+---------------------------------------
+SMART_LOCK
+# of tasks (Edge/Cloud): 21185(21185/0)
+# of failed tasks (Edge/Cloud): 9065(9065/0)
+# of completed tasks (Edge/Cloud): 12120(12120/0)
+---------------------------------------
+SMART_FIRE_ALARM
+# of tasks (Edge/Cloud): 8937(8937/0)
+# of failed tasks (Edge/Cloud): 3(3/0)
+# of completed tasks (Edge/Cloud): 8934(8934/0)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 35198(35198/0/0)
+# of failed tasks (Edge/Cloud/Mobile): 9068(9068/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 26130(26130/0/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 39(39/0/0)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 9068(9068/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 0/0/0(0/0/0/0)
+percentage of failed tasks: 25.762827%
+average service time: 2.764841 seconds. (on Edge: 2.764841, on Cloud: NaN, on Mobile: NaN)
+average processing time: 2.749372 seconds. (on Edge: 2.749372, on Cloud: NaN, on Mobile: NaN)
+average network delay: 0.015469 seconds. (LAN delay: 0.015469, MAN delay: NaN, WAN delay: NaN, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 56.731366/0.000000/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 11/05/2023 15:25:54. It took 2 Seconds
+----------------------------------------------------------------------
+Scenario started at 11/05/2023 15:25:54
+Scenario: TWO_TIER - Policy: NEXT_FIT - #iteration: 1
+Duration: 0.5 hour(s) - Poisson: 30.0 - #devices: 400
+Creating tasks...Done, 
+Creating device locations...Done.
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+SMART_LIGHT
+# of tasks (Edge/Cloud): 2307(1817/490)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 2307(1817/490)
+---------------------------------------
+SMART_AC
+# of tasks (Edge/Cloud): 2311(1828/483)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 2311(1828/483)
+---------------------------------------
+SMART_LOCK
+# of tasks (Edge/Cloud): 21344(14781/6563)
+# of failed tasks (Edge/Cloud): 4285(4285/0)
+# of completed tasks (Edge/Cloud): 17059(10496/6563)
+---------------------------------------
+SMART_FIRE_ALARM
+# of tasks (Edge/Cloud): 10194(7060/3134)
+# of failed tasks (Edge/Cloud): 2(2/0)
+# of completed tasks (Edge/Cloud): 10192(7058/3134)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 36156(25486/10670/0)
+# of failed tasks (Edge/Cloud/Mobile): 4287(4287/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 31869(21199/10670/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 49(38/7/4)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 4287(4287/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 0/0/0(0/0/0/0)
+percentage of failed tasks: 11.856953%
+average service time: 2.149327 seconds. (on Edge: 2.847552, on Cloud: 0.762102, on Mobile: NaN)
+average processing time: 1.997596 seconds. (on Edge: 2.832078, on Cloud: 0.339660, on Mobile: NaN)
+average network delay: 0.151730 seconds. (LAN delay: 0.015474, MAN delay: NaN, WAN delay: 0.422442, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 48.293717/1.091764/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 11/05/2023 15:25:57. It took 3 Seconds
+----------------------------------------------------------------------
+Scenario started at 11/05/2023 15:25:57
+Scenario: TWO_TIER_WITH_EO - Policy: NEXT_FIT - #iteration: 1
+Duration: 0.5 hour(s) - Poisson: 30.0 - #devices: 400
+Creating tasks...Done, 
+Creating device locations...Done.
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+SMART_LIGHT
+# of tasks (Edge/Cloud): 2551(2062/489)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 2551(2062/489)
+---------------------------------------
+SMART_AC
+# of tasks (Edge/Cloud): 2380(1911/469)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 2380(1911/469)
+---------------------------------------
+SMART_LOCK
+# of tasks (Edge/Cloud): 22163(15333/6830)
+# of failed tasks (Edge/Cloud): 759(759/0)
+# of completed tasks (Edge/Cloud): 21404(14574/6830)
+---------------------------------------
+SMART_FIRE_ALARM
+# of tasks (Edge/Cloud): 9265(6401/2864)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 9265(6401/2864)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 36359(25707/10652/0)
+# of failed tasks (Edge/Cloud/Mobile): 759(759/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 35600(24948/10652/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 57(51/5/1)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 759(759/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 0/0/0(0/0/0/0)
+percentage of failed tasks: 2.087516%
+average service time: 2.536961 seconds. (on Edge: 3.292991, on Cloud: 0.766269, on Mobile: NaN)
+average processing time: 2.393019 seconds. (on Edge: 3.268202, on Cloud: 0.343259, on Mobile: NaN)
+average network delay: 0.143942 seconds. (LAN delay: 0.024789, MAN delay: NaN, WAN delay: 0.423010, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 66.593407/1.000000/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 11/05/2023 15:26:00. It took 3 Seconds
+----------------------------------------------------------------------
+Scenario started at 11/05/2023 15:26:00
+Scenario: SINGLE_TIER - Policy: NEXT_FIT - #iteration: 1
+Duration: 0.5 hour(s) - Poisson: 30.0 - #devices: 500
+Creating tasks...Done, 
+Creating device locations...Done.
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+SMART_LIGHT
+# of tasks (Edge/Cloud): 3142(3142/0)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 3142(3142/0)
+---------------------------------------
+SMART_AC
+# of tasks (Edge/Cloud): 2533(2533/0)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 2533(2533/0)
+---------------------------------------
+SMART_LOCK
+# of tasks (Edge/Cloud): 29813(29813/0)
+# of failed tasks (Edge/Cloud): 16627(16627/0)
+# of completed tasks (Edge/Cloud): 13186(13186/0)
+---------------------------------------
+SMART_FIRE_ALARM
+# of tasks (Edge/Cloud): 12923(12923/0)
+# of failed tasks (Edge/Cloud): 15(15/0)
+# of completed tasks (Edge/Cloud): 12908(12908/0)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 48411(48411/0/0)
+# of failed tasks (Edge/Cloud/Mobile): 16642(16642/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 31769(31769/0/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 56(55/0/1)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 16642(16642/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 0/0/0(0/0/0/0)
+percentage of failed tasks: 34.376485%
+average service time: 2.569418 seconds. (on Edge: 2.569418, on Cloud: NaN, on Mobile: NaN)
+average processing time: 2.553639 seconds. (on Edge: 2.553639, on Cloud: NaN, on Mobile: NaN)
+average network delay: 0.015779 seconds. (LAN delay: 0.015779, MAN delay: NaN, WAN delay: NaN, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 63.606665/0.000000/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 11/05/2023 15:26:03. It took 3 Seconds
+----------------------------------------------------------------------
+Scenario started at 11/05/2023 15:26:03
+Scenario: TWO_TIER - Policy: NEXT_FIT - #iteration: 1
+Duration: 0.5 hour(s) - Poisson: 30.0 - #devices: 500
+Creating tasks...Done, 
+Creating device locations...Done.
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+SMART_LIGHT
+# of tasks (Edge/Cloud): 3436(2687/749)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 3436(2687/749)
+---------------------------------------
+SMART_AC
+# of tasks (Edge/Cloud): 2658(2126/532)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 2658(2126/532)
+---------------------------------------
+SMART_LOCK
+# of tasks (Edge/Cloud): 28574(19831/8743)
+# of failed tasks (Edge/Cloud): 7790(7790/0)
+# of completed tasks (Edge/Cloud): 20784(12041/8743)
+---------------------------------------
+SMART_FIRE_ALARM
+# of tasks (Edge/Cloud): 10721(7477/3244)
+# of failed tasks (Edge/Cloud): 1(1/0)
+# of completed tasks (Edge/Cloud): 10720(7476/3244)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 45389(32121/13268/0)
+# of failed tasks (Edge/Cloud/Mobile): 7791(7791/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 37598(24330/13268/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 54(43/8/3)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 7791(7791/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 0/0/0(0/0/0/0)
+percentage of failed tasks: 17.164952%
+average service time: 2.107772 seconds. (on Edge: 2.832366, on Cloud: 0.779058, on Mobile: NaN)
+average processing time: 1.946515 seconds. (on Edge: 2.816555, on Cloud: 0.351092, on Mobile: NaN)
+average network delay: 0.161257 seconds. (LAN delay: 0.015811, MAN delay: NaN, WAN delay: 0.427967, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 54.844123/1.360368/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 11/05/2023 15:26:08. It took 4 Seconds
+----------------------------------------------------------------------
+Scenario started at 11/05/2023 15:26:08
+Scenario: TWO_TIER_WITH_EO - Policy: NEXT_FIT - #iteration: 1
+Duration: 0.5 hour(s) - Poisson: 30.0 - #devices: 500
+Creating tasks...Done, 
+Creating device locations...Done.
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+SMART_LIGHT
+# of tasks (Edge/Cloud): 3458(2760/698)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 3458(2760/698)
+---------------------------------------
+SMART_AC
+# of tasks (Edge/Cloud): 2272(1784/488)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 2272(1784/488)
+---------------------------------------
+SMART_LOCK
+# of tasks (Edge/Cloud): 33251(23015/10236)
+# of failed tasks (Edge/Cloud): 6598(6598/0)
+# of completed tasks (Edge/Cloud): 26653(16417/10236)
+---------------------------------------
+SMART_FIRE_ALARM
+# of tasks (Edge/Cloud): 11728(8118/3610)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 11728(8118/3610)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 50709(35677/15032/0)
+# of failed tasks (Edge/Cloud/Mobile): 6598(6598/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 44111(29079/15032/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 59(51/4/4)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 6598(6598/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 0/0/0(0/0/0/0)
+percentage of failed tasks: 13.011497%
+average service time: 2.410647 seconds. (on Edge: 3.253279, on Cloud: 0.780599, on Mobile: NaN)
+average processing time: 2.248421 seconds. (on Edge: 3.228189, on Cloud: 0.353087, on Mobile: NaN)
+average network delay: 0.162226 seconds. (LAN delay: 0.025090, MAN delay: NaN, WAN delay: 0.427512, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 76.704491/1.461120/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 11/05/2023 15:26:13. It took 5 Seconds
+----------------------------------------------------------------------
+Scenario started at 11/05/2023 15:26:13
+Scenario: SINGLE_TIER - Policy: NEXT_FIT - #iteration: 1
+Duration: 0.5 hour(s) - Poisson: 30.0 - #devices: 600
+Creating tasks...Done, 
+Creating device locations...Done.
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+SMART_LIGHT
+# of tasks (Edge/Cloud): 3752(3752/0)
+# of failed tasks (Edge/Cloud): 4(4/0)
+# of completed tasks (Edge/Cloud): 3748(3748/0)
+---------------------------------------
+SMART_AC
+# of tasks (Edge/Cloud): 3310(3310/0)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 3310(3310/0)
+---------------------------------------
+SMART_LOCK
+# of tasks (Edge/Cloud): 31760(31760/0)
+# of failed tasks (Edge/Cloud): 18219(18219/0)
+# of completed tasks (Edge/Cloud): 13541(13541/0)
+---------------------------------------
+SMART_FIRE_ALARM
+# of tasks (Edge/Cloud): 14949(14949/0)
+# of failed tasks (Edge/Cloud): 43(43/0)
+# of completed tasks (Edge/Cloud): 14906(14906/0)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 53771(53771/0/0)
+# of failed tasks (Edge/Cloud/Mobile): 18266(18266/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 35505(35505/0/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 53(53/0/0)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 18266(18266/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 0/0/0(0/0/0/0)
+percentage of failed tasks: 33.969984%
+average service time: 2.444232 seconds. (on Edge: 2.444232, on Cloud: NaN, on Mobile: NaN)
+average processing time: 2.428146 seconds. (on Edge: 2.428146, on Cloud: NaN, on Mobile: NaN)
+average network delay: 0.016087 seconds. (LAN delay: 0.016087, MAN delay: NaN, WAN delay: NaN, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 66.193860/0.000000/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 11/05/2023 15:26:18. It took 4 Seconds
+----------------------------------------------------------------------
+Scenario started at 11/05/2023 15:26:18
+Scenario: TWO_TIER - Policy: NEXT_FIT - #iteration: 1
+Duration: 0.5 hour(s) - Poisson: 30.0 - #devices: 600
+Creating tasks...Done, 
+Creating device locations...Done.
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+SMART_LIGHT
+# of tasks (Edge/Cloud): 4499(3547/952)
+# of failed tasks (Edge/Cloud): 1(1/0)
+# of completed tasks (Edge/Cloud): 4498(3546/952)
+---------------------------------------
+SMART_AC
+# of tasks (Edge/Cloud): 2902(2306/596)
+# of failed tasks (Edge/Cloud): 1(1/0)
+# of completed tasks (Edge/Cloud): 2901(2305/596)
+---------------------------------------
+SMART_LOCK
+# of tasks (Edge/Cloud): 31461(21779/9682)
+# of failed tasks (Edge/Cloud): 9361(9361/0)
+# of completed tasks (Edge/Cloud): 22100(12418/9682)
+---------------------------------------
+SMART_FIRE_ALARM
+# of tasks (Edge/Cloud): 14239(9725/4514)
+# of failed tasks (Edge/Cloud): 7(7/0)
+# of completed tasks (Edge/Cloud): 14232(9718/4514)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 53101(37357/15744/0)
+# of failed tasks (Edge/Cloud/Mobile): 9370(9370/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 43731(27987/15744/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 44(33/6/5)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 9370(9370/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 0/0/0(0/0/0/0)
+percentage of failed tasks: 17.645619%
+average service time: 1.953798 seconds. (on Edge: 2.623905, on Cloud: 0.762596, on Mobile: NaN)
+average processing time: 1.787761 seconds. (on Edge: 2.607782, on Cloud: 0.330068, on Mobile: NaN)
+average network delay: 0.166037 seconds. (LAN delay: 0.016123, MAN delay: NaN, WAN delay: 0.432528, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 57.827879/1.414716/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 11/05/2023 15:26:24. It took 6 Seconds
+----------------------------------------------------------------------
+Scenario started at 11/05/2023 15:26:24
+Scenario: TWO_TIER_WITH_EO - Policy: NEXT_FIT - #iteration: 1
+Duration: 0.5 hour(s) - Poisson: 30.0 - #devices: 600
+Creating tasks...Done, 
+Creating device locations...Done.
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+SMART_LIGHT
+# of tasks (Edge/Cloud): 3823(3084/739)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 3823(3084/739)
+---------------------------------------
+SMART_AC
+# of tasks (Edge/Cloud): 3448(2758/690)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 3448(2758/690)
+---------------------------------------
+SMART_LOCK
+# of tasks (Edge/Cloud): 33320(23153/10167)
+# of failed tasks (Edge/Cloud): 6970(6970/0)
+# of completed tasks (Edge/Cloud): 26350(16183/10167)
+---------------------------------------
+SMART_FIRE_ALARM
+# of tasks (Edge/Cloud): 13909(9721/4188)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 13909(9721/4188)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 54500(38716/15784/0)
+# of failed tasks (Edge/Cloud/Mobile): 6970(6970/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 47530(31746/15784/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 71(63/4/4)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 6970(6970/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 0/0/0(0/0/0/0)
+percentage of failed tasks: 12.788991%
+average service time: 2.303976 seconds. (on Edge: 3.064243, on Cloud: 0.774868, on Mobile: NaN)
+average processing time: 2.143502 seconds. (on Edge: 3.038838, on Cloud: 0.342734, on Mobile: NaN)
+average network delay: 0.160473 seconds. (LAN delay: 0.025405, MAN delay: NaN, WAN delay: 0.432134, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 77.104037/1.539925/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 11/05/2023 15:26:31. It took 6 Seconds
+----------------------------------------------------------------------
+Scenario started at 11/05/2023 15:26:31
+Scenario: SINGLE_TIER - Policy: NEXT_FIT - #iteration: 1
+Duration: 0.5 hour(s) - Poisson: 30.0 - #devices: 700
+Creating tasks...Done, 
+Creating device locations...Done.
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+SMART_LIGHT
+# of tasks (Edge/Cloud): 4915(4915/0)
+# of failed tasks (Edge/Cloud): 4(4/0)
+# of completed tasks (Edge/Cloud): 4911(4911/0)
+---------------------------------------
+SMART_AC
+# of tasks (Edge/Cloud): 3741(3741/0)
+# of failed tasks (Edge/Cloud): 5(5/0)
+# of completed tasks (Edge/Cloud): 3736(3736/0)
+---------------------------------------
+SMART_LOCK
+# of tasks (Edge/Cloud): 34472(34472/0)
+# of failed tasks (Edge/Cloud): 20598(20598/0)
+# of completed tasks (Edge/Cloud): 13874(13874/0)
+---------------------------------------
+SMART_FIRE_ALARM
+# of tasks (Edge/Cloud): 16417(16417/0)
+# of failed tasks (Edge/Cloud): 64(64/0)
+# of completed tasks (Edge/Cloud): 16353(16353/0)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 59545(59545/0/0)
+# of failed tasks (Edge/Cloud/Mobile): 20671(20671/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 38874(38874/0/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 48(48/0/0)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 20671(20671/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 0/0/0(0/0/0/0)
+percentage of failed tasks: 34.714921%
+average service time: 2.335154 seconds. (on Edge: 2.335154, on Cloud: NaN, on Mobile: NaN)
+average processing time: 2.318701 seconds. (on Edge: 2.318701, on Cloud: NaN, on Mobile: NaN)
+average network delay: 0.016452 seconds. (LAN delay: 0.016452, MAN delay: NaN, WAN delay: NaN, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 68.554109/0.000000/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 11/05/2023 15:26:37. It took 5 Seconds
+----------------------------------------------------------------------
+Scenario started at 11/05/2023 15:26:37
+Scenario: TWO_TIER - Policy: NEXT_FIT - #iteration: 1
+Duration: 0.5 hour(s) - Poisson: 30.0 - #devices: 700
+Creating tasks...Done, 
+Creating device locations...Done.
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+SMART_LIGHT
+# of tasks (Edge/Cloud): 5072(4014/1058)
+# of failed tasks (Edge/Cloud): 2(2/0)
+# of completed tasks (Edge/Cloud): 5070(4012/1058)
+---------------------------------------
+SMART_AC
+# of tasks (Edge/Cloud): 3875(3077/798)
+# of failed tasks (Edge/Cloud): 1(1/0)
+# of completed tasks (Edge/Cloud): 3874(3076/798)
+---------------------------------------
+SMART_LOCK
+# of tasks (Edge/Cloud): 33738(23428/10310)
+# of failed tasks (Edge/Cloud): 10792(10792/0)
+# of completed tasks (Edge/Cloud): 22946(12636/10310)
+---------------------------------------
+SMART_FIRE_ALARM
+# of tasks (Edge/Cloud): 16384(11355/5029)
+# of failed tasks (Edge/Cloud): 15(15/0)
+# of completed tasks (Edge/Cloud): 16369(11340/5029)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 59069(41874/17195/0)
+# of failed tasks (Edge/Cloud/Mobile): 10810(10810/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 48259(31064/17195/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 60(53/5/2)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 10810(10810/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 0/0/0(0/0/0/0)
+percentage of failed tasks: 18.300631%
+average service time: 1.900359 seconds. (on Edge: 2.533669, on Cloud: 0.756241, on Mobile: NaN)
+average processing time: 1.733838 seconds. (on Edge: 2.517206, on Cloud: 0.318627, on Mobile: NaN)
+average network delay: 0.166522 seconds. (LAN delay: 0.016463, MAN delay: NaN, WAN delay: 0.437614, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 60.815217/1.497910/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 11/05/2023 15:26:45. It took 8 Seconds
+----------------------------------------------------------------------
+Scenario started at 11/05/2023 15:26:45
+Scenario: TWO_TIER_WITH_EO - Policy: NEXT_FIT - #iteration: 1
+Duration: 0.5 hour(s) - Poisson: 30.0 - #devices: 700
+Creating tasks...Done, 
+Creating device locations...Done.
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+SMART_LIGHT
+# of tasks (Edge/Cloud): 4355(3429/926)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 4355(3429/926)
+---------------------------------------
+SMART_AC
+# of tasks (Edge/Cloud): 3819(3032/787)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 3819(3032/787)
+---------------------------------------
+SMART_LOCK
+# of tasks (Edge/Cloud): 38519(26623/11896)
+# of failed tasks (Edge/Cloud): 10404(10404/0)
+# of completed tasks (Edge/Cloud): 28115(16219/11896)
+---------------------------------------
+SMART_FIRE_ALARM
+# of tasks (Edge/Cloud): 17971(12438/5533)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 17971(12438/5533)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 64664(45522/19142/0)
+# of failed tasks (Edge/Cloud/Mobile): 10404(10404/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 54260(35118/19142/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 68(59/4/5)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 10404(10404/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 0/0/0(0/0/0/0)
+percentage of failed tasks: 16.089323%
+average service time: 2.120711 seconds. (on Edge: 2.858130, on Cloud: 0.767839, on Mobile: NaN)
+average processing time: 1.949744 seconds. (on Edge: 2.832352, on Cloud: 0.330506, on Mobile: NaN)
+average network delay: 0.170967 seconds. (LAN delay: 0.025778, MAN delay: NaN, WAN delay: 0.437333, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 78.689680/1.846781/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 11/05/2023 15:26:55. It took 9 Seconds
+----------------------------------------------------------------------
+Scenario started at 11/05/2023 15:26:55
+Scenario: SINGLE_TIER - Policy: NEXT_FIT - #iteration: 1
+Duration: 0.5 hour(s) - Poisson: 30.0 - #devices: 800
+Creating tasks...Done, 
+Creating device locations...Done.
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+SMART_LIGHT
+# of tasks (Edge/Cloud): 5527(5527/0)
+# of failed tasks (Edge/Cloud): 7(7/0)
+# of completed tasks (Edge/Cloud): 5520(5520/0)
+---------------------------------------
+SMART_AC
+# of tasks (Edge/Cloud): 4473(4473/0)
+# of failed tasks (Edge/Cloud): 18(18/0)
+# of completed tasks (Edge/Cloud): 4455(4455/0)
+---------------------------------------
+SMART_LOCK
+# of tasks (Edge/Cloud): 41398(41398/0)
+# of failed tasks (Edge/Cloud): 27529(27529/0)
+# of completed tasks (Edge/Cloud): 13869(13869/0)
+---------------------------------------
+SMART_FIRE_ALARM
+# of tasks (Edge/Cloud): 18124(18124/0)
+# of failed tasks (Edge/Cloud): 147(147/0)
+# of completed tasks (Edge/Cloud): 17977(17977/0)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 69522(69522/0/0)
+# of failed tasks (Edge/Cloud/Mobile): 27701(27701/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 41821(41821/0/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 57(57/0/0)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 27701(27701/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 0/0/0(0/0/0/0)
+percentage of failed tasks: 39.844941%
+average service time: 2.281467 seconds. (on Edge: 2.281467, on Cloud: NaN, on Mobile: NaN)
+average processing time: 2.264657 seconds. (on Edge: 2.264657, on Cloud: NaN, on Mobile: NaN)
+average network delay: 0.016810 seconds. (LAN delay: 0.016810, MAN delay: NaN, WAN delay: NaN, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 71.128165/0.000000/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 11/05/2023 15:27:03. It took 8 Seconds
+----------------------------------------------------------------------
+Scenario started at 11/05/2023 15:27:03
+Scenario: TWO_TIER - Policy: NEXT_FIT - #iteration: 1
+Duration: 0.5 hour(s) - Poisson: 30.0 - #devices: 800
+Creating tasks...Done, 
+Creating device locations...Done.
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+SMART_LIGHT
+# of tasks (Edge/Cloud): 5419(4316/1103)
+# of failed tasks (Edge/Cloud): 1(1/0)
+# of completed tasks (Edge/Cloud): 5418(4315/1103)
+---------------------------------------
+SMART_AC
+# of tasks (Edge/Cloud): 4276(3377/899)
+# of failed tasks (Edge/Cloud): 1(1/0)
+# of completed tasks (Edge/Cloud): 4275(3376/899)
+---------------------------------------
+SMART_LOCK
+# of tasks (Edge/Cloud): 47538(32830/14708)
+# of failed tasks (Edge/Cloud): 18950(18950/0)
+# of completed tasks (Edge/Cloud): 28588(13880/14708)
+---------------------------------------
+SMART_FIRE_ALARM
+# of tasks (Edge/Cloud): 17472(12112/5360)
+# of failed tasks (Edge/Cloud): 17(17/0)
+# of completed tasks (Edge/Cloud): 17455(12095/5360)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 74705(52635/22070/0)
+# of failed tasks (Edge/Cloud/Mobile): 18969(18969/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 55736(33666/22070/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 63(51/3/9)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 18969(18969/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 0/0/0(0/0/0/0)
+percentage of failed tasks: 25.391875%
+average service time: 1.885044 seconds. (on Edge: 2.601714, on Cloud: 0.791822, on Mobile: NaN)
+average processing time: 1.699752 seconds. (on Edge: 2.584924, on Cloud: 0.349494, on Mobile: NaN)
+average network delay: 0.185292 seconds. (LAN delay: 0.016789, MAN delay: NaN, WAN delay: 0.442329, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 67.558528/2.238712/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 11/05/2023 15:27:17. It took 13 Seconds
+----------------------------------------------------------------------
+Scenario started at 11/05/2023 15:27:17
+Scenario: TWO_TIER_WITH_EO - Policy: NEXT_FIT - #iteration: 1
+Duration: 0.5 hour(s) - Poisson: 30.0 - #devices: 800
+Creating tasks...Done, 
+Creating device locations...Done.
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+SMART_LIGHT
+# of tasks (Edge/Cloud): 5181(4085/1096)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 5181(4085/1096)
+---------------------------------------
+SMART_AC
+# of tasks (Edge/Cloud): 4798(3812/986)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 4798(3812/986)
+---------------------------------------
+SMART_LOCK
+# of tasks (Edge/Cloud): 35050(24336/10714)
+# of failed tasks (Edge/Cloud): 8480(8480/0)
+# of completed tasks (Edge/Cloud): 26570(15856/10714)
+---------------------------------------
+SMART_FIRE_ALARM
+# of tasks (Edge/Cloud): 21162(14640/6522)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 21162(14640/6522)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 66191(46873/19318/0)
+# of failed tasks (Edge/Cloud/Mobile): 8480(8480/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 57711(38393/19318/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 68(60/2/6)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 8480(8480/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 0/0/0(0/0/0/0)
+percentage of failed tasks: 12.811409%
+average service time: 2.031047 seconds. (on Edge: 2.677434, on Cloud: 0.746403, on Mobile: NaN)
+average processing time: 1.865520 seconds. (on Edge: 2.651346, on Cloud: 0.303753, on Mobile: NaN)
+average network delay: 0.165527 seconds. (LAN delay: 0.026089, MAN delay: NaN, WAN delay: 0.442650, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 78.361801/1.740176/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 11/05/2023 15:27:29. It took 12 Seconds
+----------------------------------------------------------------------
+Scenario started at 11/05/2023 15:27:29
+Scenario: SINGLE_TIER - Policy: NEXT_FIT - #iteration: 1
+Duration: 0.5 hour(s) - Poisson: 30.0 - #devices: 900
+Creating tasks...Done, 
+Creating device locations...Done.
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+SMART_LIGHT
+# of tasks (Edge/Cloud): 5851(5851/0)
+# of failed tasks (Edge/Cloud): 16(16/0)
+# of completed tasks (Edge/Cloud): 5835(5835/0)
+---------------------------------------
+SMART_AC
+# of tasks (Edge/Cloud): 5193(5193/0)
+# of failed tasks (Edge/Cloud): 22(22/0)
+# of completed tasks (Edge/Cloud): 5171(5171/0)
+---------------------------------------
+SMART_LOCK
+# of tasks (Edge/Cloud): 49134(49134/0)
+# of failed tasks (Edge/Cloud): 34823(34823/0)
+# of completed tasks (Edge/Cloud): 14311(14311/0)
+---------------------------------------
+SMART_FIRE_ALARM
+# of tasks (Edge/Cloud): 20156(20156/0)
+# of failed tasks (Edge/Cloud): 253(253/0)
+# of completed tasks (Edge/Cloud): 19903(19903/0)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 80334(80334/0/0)
+# of failed tasks (Edge/Cloud/Mobile): 35114(35114/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 45220(45220/0/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 58(57/0/1)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 35114(35114/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 0/0/0(0/0/0/0)
+percentage of failed tasks: 43.710011%
+average service time: 2.254642 seconds. (on Edge: 2.254642, on Cloud: NaN, on Mobile: NaN)
+average processing time: 2.237469 seconds. (on Edge: 2.237469, on Cloud: NaN, on Mobile: NaN)
+average network delay: 0.017174 seconds. (LAN delay: 0.017174, MAN delay: NaN, WAN delay: NaN, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 74.101171/0.000000/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 11/05/2023 15:27:41. It took 11 Seconds
+----------------------------------------------------------------------
+Scenario started at 11/05/2023 15:27:41
+Scenario: TWO_TIER - Policy: NEXT_FIT - #iteration: 1
+Duration: 0.5 hour(s) - Poisson: 30.0 - #devices: 900
+Creating tasks...Done, 
+Creating device locations...Done.
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+SMART_LIGHT
+# of tasks (Edge/Cloud): 5970(4702/1268)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 5970(4702/1268)
+---------------------------------------
+SMART_AC
+# of tasks (Edge/Cloud): 4913(3824/1089)
+# of failed tasks (Edge/Cloud): 1(1/0)
+# of completed tasks (Edge/Cloud): 4912(3823/1089)
+---------------------------------------
+SMART_LOCK
+# of tasks (Edge/Cloud): 47672(32940/14732)
+# of failed tasks (Edge/Cloud): 19120(19120/0)
+# of completed tasks (Edge/Cloud): 28552(13820/14732)
+---------------------------------------
+SMART_FIRE_ALARM
+# of tasks (Edge/Cloud): 22249(15382/6867)
+# of failed tasks (Edge/Cloud): 38(38/0)
+# of completed tasks (Edge/Cloud): 22211(15344/6867)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 80804(56848/23956/0)
+# of failed tasks (Edge/Cloud/Mobile): 19159(19159/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 61645(37689/23956/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 68(53/6/9)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 19159(19159/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 0/0/0(0/0/0/0)
+percentage of failed tasks: 23.710460%
+average service time: 1.757961 seconds. (on Edge: 2.383141, on Cloud: 0.774391, on Mobile: NaN)
+average processing time: 1.573443 seconds. (on Edge: 2.366003, on Cloud: 0.326541, on Mobile: NaN)
+average network delay: 0.184518 seconds. (LAN delay: 0.017138, MAN delay: NaN, WAN delay: 0.447850, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 67.672002/2.306438/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 11/05/2023 15:27:59. It took 17 Seconds
+----------------------------------------------------------------------
+Scenario started at 11/05/2023 15:27:59
+Scenario: TWO_TIER_WITH_EO - Policy: NEXT_FIT - #iteration: 1
+Duration: 0.5 hour(s) - Poisson: 30.0 - #devices: 900
+Creating tasks...Done, 
+Creating device locations...Done.
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+SMART_LIGHT
+# of tasks (Edge/Cloud): 5990(4769/1221)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 5990(4769/1221)
+---------------------------------------
+SMART_AC
+# of tasks (Edge/Cloud): 4594(3652/942)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 4594(3652/942)
+---------------------------------------
+SMART_LOCK
+# of tasks (Edge/Cloud): 47765(33181/14584)
+# of failed tasks (Edge/Cloud): 17079(17079/0)
+# of completed tasks (Edge/Cloud): 30686(16102/14584)
+---------------------------------------
+SMART_FIRE_ALARM
+# of tasks (Edge/Cloud): 24119(16603/7516)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 24119(16603/7516)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 82468(58205/24263/0)
+# of failed tasks (Edge/Cloud/Mobile): 17079(17079/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 65389(41126/24263/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 77(67/5/5)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 17079(17079/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 0/0/0(0/0/0/0)
+percentage of failed tasks: 20.709851%
+average service time: 1.893465 seconds. (on Edge: 2.557824, on Cloud: 0.767372, on Mobile: NaN)
+average processing time: 1.710681 seconds. (on Edge: 2.531383, on Cloud: 0.319585, on Mobile: NaN)
+average network delay: 0.182784 seconds. (LAN delay: 0.026441, MAN delay: NaN, WAN delay: 0.447787, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 80.149904/2.259197/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 11/05/2023 15:28:17. It took 18 Seconds
+----------------------------------------------------------------------
+Scenario started at 11/05/2023 15:28:17
+Scenario: SINGLE_TIER - Policy: NEXT_FIT - #iteration: 1
+Duration: 0.5 hour(s) - Poisson: 30.0 - #devices: 1000
+Creating tasks...Done, 
+Creating device locations...Done.
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+SMART_LIGHT
+# of tasks (Edge/Cloud): 6737(6737/0)
+# of failed tasks (Edge/Cloud): 35(35/0)
+# of completed tasks (Edge/Cloud): 6702(6702/0)
+---------------------------------------
+SMART_AC
+# of tasks (Edge/Cloud): 5333(5333/0)
+# of failed tasks (Edge/Cloud): 43(43/0)
+# of completed tasks (Edge/Cloud): 5290(5290/0)
+---------------------------------------
+SMART_LOCK
+# of tasks (Edge/Cloud): 47716(47716/0)
+# of failed tasks (Edge/Cloud): 34113(34113/0)
+# of completed tasks (Edge/Cloud): 13603(13603/0)
+---------------------------------------
+SMART_FIRE_ALARM
+# of tasks (Edge/Cloud): 27050(27050/0)
+# of failed tasks (Edge/Cloud): 445(445/0)
+# of completed tasks (Edge/Cloud): 26605(26605/0)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 86836(86836/0/0)
+# of failed tasks (Edge/Cloud/Mobile): 34636(34636/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 52200(52200/0/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 63(62/0/1)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 34636(34636/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 0/0/0(0/0/0/0)
+percentage of failed tasks: 39.886683%
+average service time: 2.017988 seconds. (on Edge: 2.017988, on Cloud: NaN, on Mobile: NaN)
+average processing time: 2.000445 seconds. (on Edge: 2.000445, on Cloud: NaN, on Mobile: NaN)
+average network delay: 0.017543 seconds. (LAN delay: 0.017543, MAN delay: NaN, WAN delay: NaN, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 74.455327/0.000000/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 11/05/2023 15:28:32. It took 14 Seconds
+----------------------------------------------------------------------
+Scenario started at 11/05/2023 15:28:32
+Scenario: TWO_TIER - Policy: NEXT_FIT - #iteration: 1
+Duration: 0.5 hour(s) - Poisson: 30.0 - #devices: 1000
+Creating tasks...Done, 
+Creating device locations...Done.
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+SMART_LIGHT
+# of tasks (Edge/Cloud): 5880(4648/1232)
+# of failed tasks (Edge/Cloud): 2(2/0)
+# of completed tasks (Edge/Cloud): 5878(4646/1232)
+---------------------------------------
+SMART_AC
+# of tasks (Edge/Cloud): 5368(4262/1106)
+# of failed tasks (Edge/Cloud): 6(6/0)
+# of completed tasks (Edge/Cloud): 5362(4256/1106)
+---------------------------------------
+SMART_LOCK
+# of tasks (Edge/Cloud): 58526(40593/17933)
+# of failed tasks (Edge/Cloud): 26561(26561/0)
+# of completed tasks (Edge/Cloud): 31965(14032/17933)
+---------------------------------------
+SMART_FIRE_ALARM
+# of tasks (Edge/Cloud): 26575(18472/8103)
+# of failed tasks (Edge/Cloud): 114(114/0)
+# of completed tasks (Edge/Cloud): 26461(18358/8103)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 96349(67975/28374/0)
+# of failed tasks (Edge/Cloud/Mobile): 26683(26683/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 69666(41292/28374/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 78(65/8/5)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 26683(26683/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 0/0/0(0/0/0/0)
+percentage of failed tasks: 27.694112%
+average service time: 1.700895 seconds. (on Edge: 2.330631, on Cloud: 0.784455, on Mobile: NaN)
+average processing time: 1.505676 seconds. (on Edge: 2.313071, on Cloud: 0.330693, on Mobile: NaN)
+average network delay: 0.195219 seconds. (LAN delay: 0.017560, MAN delay: NaN, WAN delay: 0.453762, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 71.456641/2.773620/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 11/05/2023 15:28:56. It took 23 Seconds
+----------------------------------------------------------------------
+Scenario started at 11/05/2023 15:28:56
+Scenario: TWO_TIER_WITH_EO - Policy: NEXT_FIT - #iteration: 1
+Duration: 0.5 hour(s) - Poisson: 30.0 - #devices: 1000
+Creating tasks...Done, 
+Creating device locations...Done.
+SimManager is starting...Done.
+.........10.........20.........30.........40.........50.........60.........70.........80.........90.........100
+SMART_LIGHT
+# of tasks (Edge/Cloud): 6176(4880/1296)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 6176(4880/1296)
+---------------------------------------
+SMART_AC
+# of tasks (Edge/Cloud): 5716(4516/1200)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 5716(4516/1200)
+---------------------------------------
+SMART_LOCK
+# of tasks (Edge/Cloud): 57102(39409/17693)
+# of failed tasks (Edge/Cloud): 23642(23642/0)
+# of completed tasks (Edge/Cloud): 33460(15767/17693)
+---------------------------------------
+SMART_FIRE_ALARM
+# of tasks (Edge/Cloud): 22975(15853/7122)
+# of failed tasks (Edge/Cloud): 0(0/0)
+# of completed tasks (Edge/Cloud): 22975(15853/7122)
+---------------------------------------
+# of tasks (Edge/Cloud/Mobile): 91969(64658/27311/0)
+# of failed tasks (Edge/Cloud/Mobile): 23642(23642/0/0)
+# of completed tasks (Edge/Cloud/Mobile): 68327(41016/27311/0)
+# of uncompleted tasks (Edge/Cloud/Mobile): 72(60/5/7)
+# of failed tasks due to vm capacity (Edge/Cloud/Mobile): 23642(23642/0/0)
+# of failed tasks due to Mobility/WLAN Range/Network(WLAN/MAN/WAN/GSM): 0/0/0(0/0/0/0)
+percentage of failed tasks: 25.706488%
+average service time: 1.882605 seconds. (on Edge: 2.606567, on Cloud: 0.795350, on Mobile: NaN)
+average processing time: 1.684836 seconds. (on Edge: 2.579691, on Cloud: 0.340932, on Mobile: NaN)
+average network delay: 0.197769 seconds. (LAN delay: 0.026876, MAN delay: NaN, WAN delay: 0.454418, GSM delay: NaN)
+average server utilization Edge/Cloud/Mobile: 80.604993/2.767977/0.000000
+average cost: 0.0$
+average overhead: 0.0 ns
+average QoE (for all): 0.0%
+average QoE (for executed): 0.0%
+Scenario finished at 11/05/2023 15:29:20. It took 23 Seconds
+----------------------------------------------------------------------
+Simulation finished at 11/05/2023 15:29:20. It took 3 Minutes 37 Seconds
